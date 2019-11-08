@@ -1,0 +1,68 @@
+<html>
+<head>
+  <meta charset="utf-8"/> <!--Tipo de codificação da página-->
+
+  <!--Bibliotecas JS a serem usadas-->
+  <script type="text/javascript" src="js/vis-network.js"></script>
+  <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+
+  <!--Titulo-->
+  <title>Rede Neural LIF - Visualização</title>
+
+  <!--Descrição da página (header)-->
+  <article>
+      <header>
+        <h1 align="center">Visualização da Rede</h1>
+      </header>
+  </article>
+
+  <style type="text/css">
+      #mynetwork {
+          width: 600px;
+          height: 400px;
+          border: 1px solid lightgray;
+      }
+  </style>
+</head>
+
+<body>
+  <div align="center">  <!--Descrição do programa-->
+      Esse é um pequeno programa para visualizar a rede de maneira gráfica
+  </div>
+
+  <br> <!--Pula linha-->
+  <br>
+
+  <table style="width:100%" align="center">
+      <tr> <!--Legenda-->
+        <td align="center">
+          Estrutura da Rede
+        </td>
+        <td align="center">
+          Gráfico do potencial de membrana (Vmem) e dos pulsos de saída no tempo 
+        </td>
+      </tr>
+      <tr>
+          <td>
+            <!--Janela de visualização da rede-->
+            <div id="mynetwork"></div>
+            <pre id="eventSpan"></pre>
+            <script type="text/javascript" src=js/network.js>
+            </script>
+          </td>
+          <td>
+            <!--Janela de Visualização do grafico-->
+            <img id="templateImage" src="images/template.jpg" style="display:none;" width="600" height="400"/>
+          </td>
+        </tr>
+    </table>
+    
+    <!--Informação de Contato-->
+    <footer>
+      <p>Matheus Lima</p>
+      <p>Atualização: 9/11/2019</p>
+      <p>Contact information: <a href="mailto:mathlima@poli.ufrj.br">
+          mathlima@poli.ufrj.br</a>.</p>
+    </footer>
+  </body>
+</html>
