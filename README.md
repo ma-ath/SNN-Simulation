@@ -35,6 +35,24 @@ Uma vez que o modelo de Hodgkin-Huxley, composto por equações diferenciais nã
   <img src="https://github.com/ma-ath/SNN-Simulation/blob/master/photo_2019-11-12_22-40-02.jpg" width="300" title="Imagem retirada de [2]">
 </p>
 
+# Bibliotecas e Dependências
+
+Principais Dependências:
+* Python2.7
+* Brian2 - https://brian2.readthedocs.io/en/stable/
+
+Outras bibliotecas utilizadas:
+* Jquery-3.5.1 - https://jquery.com
+* Vis.JS - https://visjs.org
+* Json
+* matplotlib
+* webbrowser
+* subprocess
+* SimpleHTTPServer
+* SocketServer
+
+(As bibliotecas Jquery e Vis.JS já estão incluidas na pasta /js)
+
 # Bibliografia & Links Externos
 [1] DAYAN,P.;ABBOTT,L.F;Theoretical Neuroscience - Computational and Mathematical Modeling of Neural Systems. Cambridge, 2001
 
