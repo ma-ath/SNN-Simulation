@@ -32,12 +32,14 @@ Uma vez que o modelo de Hodgkin-Huxley, composto por equações diferenciais nã
 <p align="center">
   <img src="https://github.com/ma-ath/SNN-Simulation/blob/master/CodeCogsEqn.gif" title="Equação LIF">
   <br>
-  <img src="https://github.com/ma-ath/SNN-Simulation/blob/master/photo_2019-11-12_22-40-02.jpg" width="300">
+  <img src="https://github.com/ma-ath/SNN-Simulation/blob/master/photo_2019-11-12_22-40-02.jpg" width="300" title="Imagem retirada de [2]">
 </p>
 
 # Bibliografia & Links Externos
 [1] DAYAN,P.;ABBOTT,L.F;Theoretical Neuroscience - Computational and Mathematical Modeling of Neural Systems. Cambridge, 2001
 
-[2] https://pt.wikipedia.org/wiki/Modelo_de_Hodgkin-Huxley
+[2] AAMIR, S. A. Mixed-Signal Circuit Implementation of Spiking Neuron Models. Orientador: Prof. Dr. Marc Weber. 2018. Dissertação (Doktors der Ingenieurwissenschaften) - Fakultät für Elektrotechnik und Informationstechnik des Karlsruher Instituts für Technologie (KIT), Karlsruher Instituts für Technologie, 2018.
 
-[3] https://demonstrations.wolfram.com/MinimalHodgkinHuxleyModelDCStimulus/
+[3] https://pt.wikipedia.org/wiki/Modelo_de_Hodgkin-Huxley
+
+[4] https://demonstrations.wolfram.com/MinimalHodgkinHuxleyModelDCStimulus/
