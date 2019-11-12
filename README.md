@@ -26,7 +26,7 @@ Uma vez que o modelo de Hodgkin-Huxley, composto por equações diferenciais nã
 
 É seguindo esse mesmo pensamento que é proposto o modelo _Leak, Integrate and Fire_, descrito pelas seguintes equações
 
-
+![alt text](https://github.com/ma-ath/SNN-Simulation/blob/master/CodeCogsEqn.gif)
 
 # Bibliografia & Links Externos
 [1] DAYAN,P.;ABBOTT,L.F;Theoretical Neuroscience - Computational and Mathematical Modeling of Neural Systems. Cambridge, 2001
