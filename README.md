@@ -8,15 +8,18 @@ O entendimento das características básicas de um neurônio pode ser remetido �
  
  O modelo eletrônico de Hodgking-Huxley é descrito a seguir:
  
-![alt text](https://upload.wikimedia.org/wikipedia/commons/b/bb/Hodgkin-Huxley_-_PT.svg)
-
-![alt text](https://wikimedia.org/api/rest_v1/media/math/render/svg/8fde652312d9692d346ee7150c362c7679bb7e3f)
-
-![alt text](https://wikimedia.org/api/rest_v1/media/math/render/svg/057155f00703e829696e069d0c66131e2c02e453)
-
-![alt text](https://wikimedia.org/api/rest_v1/media/math/render/svg/e721bc5c172643c1ea4c02507e593f3950561b6b)
-
-![alt text](https://wikimedia.org/api/rest_v1/media/math/render/svg/e2d6115fcbd65351edd5b8176fc192cddd4a49f4)
+ <p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Hodgkin-Huxley_-_PT.svg" title="Modelo Eletrônico de Hodgkin-Huxley">
+  <br>
+  <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/8fde652312d9692d346ee7150c362c7679bb7e3f">
+  <br>
+  <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/057155f00703e829696e069d0c66131e2c02e453">
+  <br>
+  <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e721bc5c172643c1ea4c02507e593f3950561b6b">
+  <br>
+  <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e2d6115fcbd65351edd5b8176fc192cddd4a49f4">
+  <br>
+</p>
 
 Esse conjunto de equações têm por variável principal a _"Tensão de membrana"_ (Vm) do neurônio, que é a variável de estado básica do sistema. As soluções para as equações descrevem um **comportamento pulsado** do sistema, ou seja: Os sinais de comunicação (_sinapses_) entre os neurônios são também sinais pulsados.
 
@@ -24,9 +27,13 @@ Esse conjunto de equações têm por variável principal a _"Tensão de membrana
 # Uma simplificação: O modelo "Leak, Integrate and Fire"
 Uma vez que o modelo de Hodgkin-Huxley, composto por equações diferenciais não-lineares, são computacionalmente complexas, é  interessante buscarmos uma simpĺificação das mesmas de modo que,a partir da análise do comportamento das mesmas, possa encontrar um modelo computacionalmente mais simples e que mantenha as características principais descritas pelo modelo original.
 
-É seguindo esse mesmo pensamento que é proposto o modelo _Leak, Integrate and Fire_, descrito pelas seguintes equações
+É seguindo esse mesmo pensamento que é proposto o modelo _Leak, Integrate and Fire_ (LIF), descrito pelas seguintes equações
 
-![alt text](https://github.com/ma-ath/SNN-Simulation/blob/master/CodeCogsEqn.gif)
+<p align="center">
+  <img src="https://github.com/ma-ath/SNN-Simulation/blob/master/CodeCogsEqn.gif" title="Equação LIF">
+  <br>
+  <img src="https://github.com/ma-ath/SNN-Simulation/blob/master/photo_2019-11-12_22-40-02.jpg" width="300">
+</p>
 
 # Bibliografia & Links Externos
 [1] DAYAN,P.;ABBOTT,L.F;Theoretical Neuroscience - Computational and Mathematical Modeling of Neural Systems. Cambridge, 2001
