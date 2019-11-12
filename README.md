@@ -40,6 +40,8 @@ Uma vez que o modelo de Hodgkin-Huxley, composto por equações diferenciais nã
 
 [2] AAMIR, S. A. Mixed-Signal Circuit Implementation of Spiking Neuron Models. Orientador: Prof. Dr. Marc Weber. 2018. Dissertação (Doktors der Ingenieurwissenschaften) - Fakultät für Elektrotechnik und Informationstechnik des Karlsruher Instituts für Technologie (KIT), Karlsruher Instituts für Technologie, 2018.
 
-[3] https://pt.wikipedia.org/wiki/Modelo_de_Hodgkin-Huxley
+[3] SAKEMI, Y; MORINO, K. スパイキングニューラルネットワークにおける深層学習: Deep Learning for Spiking Neural Networks. 生産研究, J-STAGE, ano 2019, v. 71, n. 2, p. 159-167, 30 mar. 2019.
 
-[4] https://demonstrations.wolfram.com/MinimalHodgkinHuxleyModelDCStimulus/
+[4] https://pt.wikipedia.org/wiki/Modelo_de_Hodgkin-Huxley
+
+[5] https://demonstrations.wolfram.com/MinimalHodgkinHuxleyModelDCStimulus/
