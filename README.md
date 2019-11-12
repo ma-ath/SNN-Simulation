@@ -1,9 +1,10 @@
 # SNN-Simulation
 
-
  Redes Neurais Pulsadas - SNN (do ingles Spiking Neural Networks) são uma arquitetura de redes neurais artificiais baseadas nos sistemas neuronal-biológicos, e que visam assim, imitar o funcionamento das redes neurais biológicas. Esse grupo de redes neurais incorpora em sua estrutura a ideia da codificação da informação no domínio do tempo, através dos chamados "Códigos de Pulsos", e do uso de um conjunto de equações de estado que governam o funcionamento individual de cada célula da rede.
  
- O entendimento das características básicas de um neurônio pode ser remetido à 1952, quando a dupla de cientistas britânicos Alan Hodgkin e Andrew Huxley descreveram pela primeira vez um grupo de equações diferenciais que governavam as características fisico-químicas dos neurônios de uma lula, em seu famoso paper "A quantitative description of membrane current and its application to conduction and excitation in nerve", o que lhes rendeu o Prêmio Nobel de 1963 "por suas descobertas sobre os mecanismos iônicos envolvidos na excitação e inibição nas porções periférica e central da membrana das células nervosas". Nesse mesmo estudo, Hodgkin e Huxley ao descrever o conjunto de equações, nos introduz a um modelo eletrônico com os quais é possível simular o comportamento do neurônio, o qual ficou conhecido por "Modelo de Hodgkin-Huxley".
+# Funcionamento Neuronal: O Modelo de Hodgkin-Huxley
+ 
+ O entendimento das características básicas de um neurônio pode ser remetido à 1952, quando a dupla de cientistas britânicos _Alan Hodgkin_ e _Andrew Huxley_ descreveram pela primeira vez um grupo de equações diferenciais que governavam as características fisico-químicas dos neurônios de uma lula, em seu famoso paper _"A quantitative description of membrane current and its application to conduction and excitation in nerve"_, o que lhes rendeu o Prêmio Nobel de 1963 _"por suas descobertas sobre os mecanismos iônicos envolvidos na excitação e inibição nas porções periférica e central da membrana das células nervosas"_. Nesse mesmo estudo, Hodgkin e Huxley ao descrever o conjunto de equações, nos introduz a um modelo eletrônico com os quais é possível simular o comportamento do neurônio, o qual ficou conhecido por **Modelo de Hodgkin-Huxley**.
  
  O modelo eletrônico de Hodgking-Huxley é descrito a seguir:
  
