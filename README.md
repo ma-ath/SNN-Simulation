@@ -18,16 +18,19 @@ O entendimento das características básicas de um neurônio pode ser remetido �
 
 ![alt text](https://wikimedia.org/api/rest_v1/media/math/render/svg/e2d6115fcbd65351edd5b8176fc192cddd4a49f4)
 
-Esse conjunto de equações têm por variável principal a _"Tensão de membrana"_ (Vm) do neurônio, que é a variável de estado básica do sistema. As soluções para as equações descrevem um **comportamento pulsado** do sistema, o que nos leva a crer que os sinais de comunicação (_sinapses_) entre os neurônios são também sinais pulsados.
+Esse conjunto de equações têm por variável principal a _"Tensão de membrana"_ (Vm) do neurônio, que é a variável de estado básica do sistema. As soluções para as equações descrevem um **comportamento pulsado** do sistema, ou seja: Os sinais de comunicação (_sinapses_) entre os neurônios são também sinais pulsados.
 
-A partir 
 
+# Uma simplificação: O modelo "Leak, Integrate and Fire"
+Uma vez que o modelo de Hodgkin-Huxley, composto por equações diferenciais não-lineares, são computacionalmente complexas, é  interessante buscarmos uma simpĺificação das mesmas de modo que,a partir da análise do comportamento das mesmas, possa encontrar um modelo computacionalmente mais simples e que mantenha as características principais descritas pelo modelo original.
+
+É seguindo esse mesmo pensamento que é proposto o modelo _Leak, Integrate and Fire_, descrito pelas seguintes equações
 
 
 
 # Bibliografia & Links Externos
-DAYAN,P.;ABBOTT,L.F;Theoretical Neuroscience - Computational and Mathematical Modeling of Neural Systems. Cambridge, 2001
+[1] DAYAN,P.;ABBOTT,L.F;Theoretical Neuroscience - Computational and Mathematical Modeling of Neural Systems. Cambridge, 2001
 
-https://pt.wikipedia.org/wiki/Modelo_de_Hodgkin-Huxley
+[2] https://pt.wikipedia.org/wiki/Modelo_de_Hodgkin-Huxley
 
-https://demonstrations.wolfram.com/MinimalHodgkinHuxleyModelDCStimulus/
+[3] https://demonstrations.wolfram.com/MinimalHodgkinHuxleyModelDCStimulus/
