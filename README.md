@@ -25,15 +25,28 @@ Esse conjunto de equações têm por variável principal a _"Tensão de membrana
 
 
 # Uma simplificação: O modelo "Leak, Integrate and Fire"
-Uma vez que o modelo de Hodgkin-Huxley, composto por equações diferenciais não-lineares, são computacionalmente complexas, é  interessante buscarmos uma simpĺificação das mesmas de modo que,a partir da análise do comportamento das mesmas, possa encontrar um modelo computacionalmente mais simples e que mantenha as características principais descritas pelo modelo original.
+Uma vez que o modelo de Hodgkin-Huxley, composto por equações diferenciais não-lineares, é computacionalmente bastante complexo, é  interessante buscarmos uma simpĺificação das mesmas de modo que, a partir do comportamento ddo modelo completo, seja possivel extrair um modelo computacionalmente mais simples e que mantenha as principais características descritas pelo modelo original.
 
-É seguindo esse mesmo pensamento que é proposto o modelo _Leak, Integrate and Fire_ (LIF), descrito pelas seguintes equações
+Seguindo esse pensamento, nos é proposto o modelo _Leak, Integrate and Fire_ (LIF), descrito pelas seguintes equações
 
 <p align="center">
   <img src="https://github.com/ma-ath/SNN-Simulation/blob/master/CodeCogsEqn.gif" title="Equação LIF">
   <br>
   <img src="https://github.com/ma-ath/SNN-Simulation/blob/master/photo_2019-11-12_22-40-02.jpg" width="300" title="Imagem retirada de [2]">
 </p>
+
+Nesse modelo, passa a existir uma chamada **"Tensão de Limiar"**: Quando a variável interna do sistema (Tensão de Membrana) atinge esse valor, ocorre instantaneamente um pulso, o que é descrito pelos seguites passos:
+* A tensão de membrana _"salta"_ instantaneamente para uma tensão de disparo
+* Logo em seguida, a tensão de membrana retorna instantaneamente a um valor mais baixo, chamado _"Tensão de Reset"_
+* O neurônio pode ou não entrar em um período "refratorio", onde a tensão de membrana permanecerá inalterada
+
+<p align="center">
+  <img src="https://www.researchgate.net/profile/Soni_Chaturvedi2/publication/316284143/figure/fig1/AS:485457545961472@1492753506061/Simulation-of-LIF-Model-of-SNN.png width="300" title="Equação LIF - Retirada de [4]">
+</p>
+
+# Sinapses
+
+
 
 # Bibliotecas e Dependências
 
@@ -60,6 +73,8 @@ Outras bibliotecas utilizadas:
 
 [3] SAKEMI, Y; MORINO, K. スパイキングニューラルネットワークにおける深層学習: Deep Learning for Spiking Neural Networks. 生産研究, J-STAGE, ano 2019, v. 71, n. 2, p. 159-167, 30 mar. 2019.
 
-[4] https://pt.wikipedia.org/wiki/Modelo_de_Hodgkin-Huxley
+[4] https://www.researchgate.net/figure/Simulation-of-LIF-Model-of-SNN_fig1_316284143
 
-[5] https://demonstrations.wolfram.com/MinimalHodgkinHuxleyModelDCStimulus/
+[5] https://pt.wikipedia.org/wiki/Modelo_de_Hodgkin-Huxley
+
+[6] https://demonstrations.wolfram.com/MinimalHodgkinHuxleyModelDCStimulus/
