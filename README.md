@@ -30,7 +30,7 @@ Uma vez que o modelo de Hodgkin-Huxley, composto por equações diferenciais nã
 Seguindo esse pensamento, nos é proposto o modelo _Leak, Integrate and Fire_ (LIF), descrito pelas seguintes equações
 
 <p align="center">
-  <img src="https://github.com/ma-ath/SNN-Simulation/blob/master/CodeCogsEqn.gif" title="Equação LIF">
+  <img src="https://github.com/ma-ath/SNN-Simulation/blob/master/Readme/CodeCogsEqn.gif" title="Equação LIF">
   <br>
   <img src="https://github.com/ma-ath/SNN-Simulation/blob/master/photo_2019-11-12_22-40-02.jpg" width="300" title="Imagem retirada de [2]">
 </p>
@@ -41,7 +41,7 @@ Nesse modelo, passa a existir uma chamada **"Tensão de Limiar"**: Quando a vari
 * O neurônio pode ou não entrar em um período "refratorio", onde a tensão de membrana permanecerá inalterada
 
 <p align="center">
-  <img src="https://www.researchgate.net/profile/Soni_Chaturvedi2/publication/316284143/figure/fig1/AS:485457545961472@1492753506061/Simulation-of-LIF-Model-of-SNN.png width="300" title="Equação LIF - Retirada de [4]">
+  <img src="https://github.com/ma-ath/SNN-Simulation/blob/master/Readme/Simulation-of-LIF-Model-of-SNN.png" title="Equação LIF - Retirada de [4]">
 </p>
 
 # Sinapses
