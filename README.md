@@ -44,6 +44,8 @@ Nesse modelo, passa a existir uma chamada **"Tensão de Limiar"**: Quando a vari
   <img src="https://github.com/ma-ath/SNN-Simulation/blob/master/Readme/Simulation-of-LIF-Model-of-SNN.png" title="Equação LIF - Retirada de [4]">
 </p>
 
+Uma vez que a tensão de membrana salta "instantâneamente" ao atingir sua "Tensão de Limiar", podemos imaginá-la como um _impulso de Dirac_, e é através de tais impulsos que o neurônio irá enviar informações para os demais neurônios.  
+
 # Sinapses
 
 _Sinapse_ é o nome dado às regiões de contato entre um neurônio e o meio exterior (outro neurônio, uma célula muscular, etc), e é aonde ocorre a propagação da informação entre neurônios através de processos bioquímicos. Os principais contatos sinápticos são do tipo axo-somático, axo-dendrítico, neuroefetor e neuromuscular [6]. Do ponto de vista computacional, é por meio de sinapses que o as sinais processados em um neurônio são transmitidos para outras células.
@@ -58,9 +60,20 @@ Essa condutânia _gs_ é igual a multiplicação de três termos:
   <img src="https://github.com/ma-ath/SNN-Simulation/blob/master/Readme/gs_code.gif" title="Equação de Resposta Sináptica - Retirada de [5]">
 </p>
 
-* gsmax: máxima condutância assumida por gs
-* Prel:  Probabilidade de haver uma resposta (liberação de neurotransmissores) dada uma resposta recebida
-* Ps:    Probabilidade de haver a abertura de canais pós-sinapticos (= fração de canais abertos)
+* _gsmax_: máxima condutância assumida por _gs_
+* _Prel_:  Probabilidade de haver uma resposta (liberação de neurotransmissores) dada uma resposta recebida
+* _Ps_:    Probabilidade de haver a abertura de canais pós-sinapticos (= fração de canais abertos)
+
+Por simplicidade, podemos assumir que _Prel = 1_, ou seja, há a liberação de neurotransmissores todas as vezes que uma resposta é recebida.
+
+Podemos modelar os efeitos de _Ps_ a partir de um modelo cinético, onde os canais os canais fecham e abrem, respectivamente, à taxas _α_s_ e _β_s_:
+
+<p align="center">
+  <img src="https://github.com/ma-ath/SNN-Simulation/blob/master/Readme/ps_code.gif" title="Equação do Comportamento do Canal - Retirada de [5]">
+</p>
+
+A solução desse sistema para um _Impulso de Dirac_ descreve _Ps(t)_ como uma função exponencial. Podemos dessa forma, imaginarmos esta equação como um filtro sináptico: Cada sinal sinaptico recebido será filtrado por ele, ou, em outras palavras, um _trem de impulsos_ sinápticos na entrada do sistema descreverá uma resposta sináptica no sistema (através da condutância sináptica _gs_) uma **Integral de convolução**, representada por:
+
 
 
 # Bibliotecas e Dependências
