@@ -46,6 +46,21 @@ Nesse modelo, passa a existir uma chamada **"Tensão de Limiar"**: Quando a vari
 
 # Sinapses
 
+_Sinapse_ é o nome dado às regiões de contato entre um neurônio e o meio exterior (outro neurônio, uma célula muscular, etc), e é aonde ocorre a propagação da informação entre neurônios através de processos bioquímicos. Os principais contatos sinápticos são do tipo axo-somático, axo-dendrítico, neuroefetor e neuromuscular [6]. Do ponto de vista computacional, é por meio de sinapses que o as sinais processados em um neurônio são transmitidos para outras células.
+
+Físicamente, o efeito que as sinápses geram no comportamento celular é o de aumentar ou diminuir o _potencial da membrana pós-sináptico_: Uma **resposta excitatória** despolariza o interior da célula, o que gera o aumento do potencial da membrana local. Já uma **resposta inibitória** hiperpolariza o interior celular, o que diminui o potencial de membrana local. [5]
+
+No modelo RC do LIF apresentado anteriormente, podemos modelar o efeito de uma sinápse no potencial de membrana _Vmem_ através da adição de uma _condutância sináptica_ controlada _gs_, conectada entre o potencial Vmem e um potencial sináptico _Vs_.
+
+Essa condutânia _gs_ é igual a multiplicação de três termos:
+
+<p align="center">
+  <img src="https://github.com/ma-ath/SNN-Simulation/blob/master/Readme/gs_code.gif" title="Equação de Resposta Sináptica - Retirada de [5]">
+</p>
+
+* gsmax: máxima condutância assumida por gs
+* Prel:  Probabilidade de haver uma resposta (liberação de neurotransmissores) dada uma resposta recebida
+* Ps:    Probabilidade de haver a abertura de canais pós-sinapticos (= fração de canais abertos)
 
 
 # Bibliotecas e Dependências
@@ -77,6 +92,8 @@ Outras bibliotecas utilizadas:
 
 [5] Aulas de Neurociência Computacional - https://www.coursera.org/learn/computational-neuroscience/
 
-[6] https://pt.wikipedia.org/wiki/Modelo_de_Hodgkin-Huxley
+[6] Marcus Lira Brandão (2008). As bases biológicas do comportamento. Introdução à neurociência. São Paulo: E.P.U. 244 páginas. ISBN 8512406305
 
-[7] https://demonstrations.wolfram.com/MinimalHodgkinHuxleyModelDCStimulus/
+[7] https://pt.wikipedia.org/wiki/Modelo_de_Hodgkin-Huxley
+
+[8] https://demonstrations.wolfram.com/MinimalHodgkinHuxleyModelDCStimulus/
