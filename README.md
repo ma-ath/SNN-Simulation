@@ -72,8 +72,18 @@ Podemos modelar os efeitos de _Ps_ a partir de um modelo cinético, onde os cana
   <img src="https://github.com/ma-ath/SNN-Simulation/blob/master/Readme/ps_code.gif" title="Equação do Comportamento do Canal - Retirada de [5]">
 </p>
 
-A solução desse sistema para um _Impulso de Dirac_ descreve _Ps(t)_ como uma função exponencial. Podemos dessa forma, imaginarmos esta equação como um filtro sináptico: Cada sinal sinaptico recebido será filtrado por ele, ou, em outras palavras, um _trem de impulsos_ sinápticos na entrada do sistema descreverá uma resposta sináptica no sistema (através da condutância sináptica _gs_) uma **Integral de convolução**, representada por:
+A solução desse sistema para um _Impulso de Dirac_ descreve _Ps(t)_ como uma função exponencial. Podemos dessa forma, imaginarmos esta equação como um filtro sináptico: Cada sinal sinaptico recebido será filtrado por ele, ou, em outras palavras, um _trem de impulsos_ sinápticos na entrada do sistema descreverá uma resposta sináptica no sistema (através da condutância sináptica _gs_) dada por uma **Integral de convolução** do trem de impulsos com a resposta ao impulso do sistema, representada por:
 
+<p align="center">
+  <img src="https://github.com/ma-ath/SNN-Simulation/blob/master/Readme/gbt_code.gif" title="Filtro Sinaptico (Tempo) - Retirada de [5]">
+  <img src="https://github.com/ma-ath/SNN-Simulation/blob/master/Readme/rhob_code.gif" title="Trem de Pulso Sinaptico - Retirada de [5]">
+</p>
+
+Na equação:
+* _K(t)_:   É a resposta ao impulso do filtro (uma resposta exponencial decrescente)
+* _ρb(t)_:  Trem de impulsos sinápticos, representa uma resposta sináptica recebida de outro neurônio
+* _gb,max_: É a máxima condutância assumida por _gb(t)_
+* _gb(t)_:  É a condutância sinaptica do modelo eletrônico LIF
 
 
 # Bibliotecas e Dependências
