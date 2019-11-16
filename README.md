@@ -76,6 +76,7 @@ A solução desse sistema para um _Impulso de Dirac_ descreve _Ps(t)_ como uma f
 
 <p align="center">
   <img src="https://github.com/ma-ath/SNN-Simulation/blob/master/Readme/gbt_code.gif" title="Filtro Sinaptico (Tempo) - Retirada de [5]">
+ <br>
   <img src="https://github.com/ma-ath/SNN-Simulation/blob/master/Readme/rhob_code.gif" title="Trem de Pulso Sinaptico - Retirada de [5]">
 </p>
 
