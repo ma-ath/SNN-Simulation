@@ -51,7 +51,7 @@ Nesse modelo, passa a existir uma chamada **"Tensão de Limiar"**: Quando a vari
 # Bibliotecas e Dependências
 
 Principais Dependências:
-* Python2.7
+* Python (3.5.2)
 * Brian2 - https://brian2.readthedocs.io/en/stable/
 
 Outras bibliotecas utilizadas:
