@@ -75,6 +75,8 @@ Outras bibliotecas utilizadas:
 
 [4] https://www.researchgate.net/figure/Simulation-of-LIF-Model-of-SNN_fig1_316284143
 
-[5] https://pt.wikipedia.org/wiki/Modelo_de_Hodgkin-Huxley
+[5] Aulas de Neurociência Computacional - https://www.coursera.org/learn/computational-neuroscience/
 
-[6] https://demonstrations.wolfram.com/MinimalHodgkinHuxleyModelDCStimulus/
+[6] https://pt.wikipedia.org/wiki/Modelo_de_Hodgkin-Huxley
+
+[7] https://demonstrations.wolfram.com/MinimalHodgkinHuxleyModelDCStimulus/
