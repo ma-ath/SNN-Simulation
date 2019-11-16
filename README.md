@@ -54,7 +54,7 @@ Físicamente, o efeito que as sinápses geram no comportamento celular é o de a
 
 No modelo RC do LIF apresentado anteriormente, podemos modelar o efeito de uma sinápse no potencial de membrana _Vmem_ através da adição de uma _condutância sináptica_ controlada _gs_, conectada entre o potencial Vmem e um potencial sináptico _Vs_.
 
-Essa condutânia _gs_ é igual a multiplicação de três termos [5][6, Pág. 169]:
+Essa condutânia _gs_ é igual a multiplicação de três termos [5][6, Pág. 169,180]:
 
 <p align="center">
   <img src="https://github.com/ma-ath/SNN-Simulation/blob/master/Readme/gs_code.gif" title="Equação de Resposta Sináptica - Retirada de [5]">
